@@ -5,6 +5,7 @@ import { render } from 'react-dom';
 //import css
 import css from './styles/style.styl';
 
-render (<h1>hello</h1>, document.getElementById('root'));
+//import Components
+import Main from './components/Main'
 
-
+render (<Main/>, document.getElementById('root'));
